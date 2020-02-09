@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CidadeService } from '../services';
-
+import { CidadeService } from '../../shared/services';
 @Component({
   selector: 'app-cidade',
   templateUrl: './cidade.component.html',
@@ -13,6 +12,8 @@ export class CidadeComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+    const cidade = this.cidadeService.cidade();
+
   }
 
 }
