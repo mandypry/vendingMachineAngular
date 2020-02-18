@@ -8,10 +8,12 @@ export class Cliente {
     private estado: Estado;
     private cidade: Cidade;
 
-  constructor(name: string, country: string, age: number ) {
+  constructor(name: string, country: string, age: number, estado: Estado, cidade: Cidade ) {
       this.name = name;
       this.country = country;
       this.age = age;
+      this.estado = estado;
+      this.cidade = cidade;
   }
 
   getName() {

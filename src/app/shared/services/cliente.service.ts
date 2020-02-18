@@ -14,7 +14,7 @@ import { Cliente } from 'src/app/shared/model/cliente';
 export class ClienteService {
 
   cliente() {
-    return new Cliente('Amanda', 'Brasil', 31);
+    return new Cliente('Amanda', 'Brasil', 31, 'SaoPaulo', 'Guarulhos');
   }
 }
 

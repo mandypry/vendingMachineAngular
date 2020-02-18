@@ -12,6 +12,7 @@ export class CidadeComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+    //chamando a cidade
     const cidade = this.cidadeService.cidade();
 
   }
