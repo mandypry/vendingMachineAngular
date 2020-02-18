@@ -22,8 +22,7 @@ export class Cidade {
         return this.estado;
     }
 
-    setEstado(estado){
+    setEstado(estado) {
         this.estado = estado;
     }
-
 }

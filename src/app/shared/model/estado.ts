@@ -1,4 +1,5 @@
 export class Estado {
+
     private name: string;
     private initials: string;
 
@@ -7,21 +8,20 @@ export class Estado {
         this.initials = initials;
     }
 
-    get stateName() {
+    getStateName() {
         return this.name;
     }
 
-    set stateName(name) {
+    setStateName(name) {
         this.name = name;
     }
 
-    get stateInitials() {
+    getStateInitials() {
         return this.initials;
     }
 
-    set stateInitials(initials) {
+    setStateInitials(initials) {
         this.initials = initials;
     }
-
 
 }
