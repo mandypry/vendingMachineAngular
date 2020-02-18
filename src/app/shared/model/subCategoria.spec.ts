@@ -1,11 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 import { SubCategoria } from './subCategoria';
 import { SubCategoriaService } from '../services';
+import { Categoria } from './categoria';
 
 describe('SubCategoriaService', () => {
-    beforeEach(() => TestBed.configureTestingModule({}));
-    it('should create an instande', () => {
-        const service: SubCategoriaService = TestBed.get(SubCategoriaService);
-        expect(service).toBeTruthy();
-    });
-})
+
+    let categoria: Categoria;
+
+    it('should create an instance', () => {
+    expect(new SubCategoria('Liquido', categoria)).toBeTruthy();
+  });
+});

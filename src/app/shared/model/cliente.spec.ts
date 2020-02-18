@@ -1,12 +1,16 @@
 import { Cliente } from './cliente';
+import { Estado } from './estado';
+import { Cidade } from './cidade';
 
 fdescribe('Cliente', () => {
 
   // tslint:disable-next-line: prefer-const
   let component: Cliente;
+  let estado: Estado;
+  let cidade: Cidade;
 
   it('should create an instance', () => {
-    expect(new Cliente('Amanda', 'Brasil', 31 )).toBeTruthy();
+    expect(new Cliente('Amanda', 'Brasil', 31, estado, cidade)).toBeTruthy();
   });
 
   // it('should CriarNovoCliente', () => {
