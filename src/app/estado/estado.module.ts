@@ -1,8 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { EstadoComponent } from './components';
-import { EstadoService } from './services';
-
+import { EstadoService } from '../shared/services';
 @NgModule({
   declarations: [EstadoComponent],
   imports: [

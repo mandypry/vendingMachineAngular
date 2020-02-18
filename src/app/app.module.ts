@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { ClienteModule } from './cliente';
 import { CidadeModule } from './cidade';
 import { EstadoModule } from './estado';
+import { CategoriaModule } from './categoria';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { EstadoModule } from './estado';
     AppRoutingModule,
     ClienteModule,
     CidadeModule,
-    EstadoModule
+    EstadoModule,
+    CategoriaModule
   ],
   providers: [],
   bootstrap: [AppComponent]
