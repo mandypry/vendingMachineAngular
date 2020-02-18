@@ -7,6 +7,7 @@ import { ClienteModule } from './cliente';
 import { CidadeModule } from './cidade';
 import { EstadoModule } from './estado';
 import { CategoriaModule } from './categoria';
+import { SubCategoriaModule} from './subCategoria';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CategoriaModule } from './categoria';
     ClienteModule,
     CidadeModule,
     EstadoModule,
-    CategoriaModule
+    CategoriaModule,
+    SubCategoriaModule
   ],
   providers: [],
   bootstrap: [AppComponent]
