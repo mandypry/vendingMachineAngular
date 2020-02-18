@@ -1,38 +1,56 @@
+import { Estado } from './estado';
+import { Cidade } from './cidade';
 
 export class Cliente {
-    private nome: string;
-    private pais: string;
-    private idade: number;
-  // private Estado estado; //Objeto estado
-  // private Cidade cidade; //Objeto Cidade
+    private name: string;
+    private country: string;
+    private age: number;
+    private estado: Estado;
+    private cidade: Cidade;
 
-  constructor(nome: string, pais: string, idade: number ) {
-      this.nome = nome;
-      this.pais = pais;
-      this.idade = idade;
+  constructor(name: string, country: string, age: number ) {
+      this.name = name;
+      this.country = country;
+      this.age = age;
   }
 
-  get userNome() {
-    return this.nome;
+  getName() {
+    return this.name;
   }
 
-  set userNome(nome) {
-    this.nome = nome;
+  setName(name) {
+    this.name = name;
   }
 
-  get userPais() {
-    return this.pais;
+  getCountry() {
+    return this.country;
   }
 
-  set userPais(pais) {
-    this.pais = pais;
+  setCountry(country) {
+    this.country = country;
   }
 
-  get userIdade() {
-    return this.idade;
+  getAge() {
+    return this.age;
   }
 
-  set userIdade(idade) {
-    this.idade = idade;
+  setAge(age) {
+    this.age = age;
+  }
+
+  getEstado() {
+    return this.estado;
+  }
+
+  setEstado(estado) {
+    this.estado = estado;
+  }
+
+  getCidade() {
+    return this.cidade;
+  }
+
+  setCidade(cidade) {
+    this.cidade = cidade;
   }
 }

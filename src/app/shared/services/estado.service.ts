@@ -8,6 +8,6 @@ import { Estado } from 'src/app/shared/model/estado';
 export class EstadoService {
 
   estado() {
-    return new Estado('Sp', 'Sao Paulo')
+    return new Estado('SP', 'Sao Paulo');
   }
 } 

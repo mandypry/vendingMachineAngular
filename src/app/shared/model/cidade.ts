@@ -2,7 +2,7 @@ export class Cidade {
 
     private name: string;
 
-    constructor(name: string){
+    constructor(name: string) {
         this.name = name;
     }
 
@@ -10,7 +10,7 @@ export class Cidade {
         return this.name;
     }
 
-    set cityName(name){
+    set cityName(name) {
         this.name = name;
     }
 

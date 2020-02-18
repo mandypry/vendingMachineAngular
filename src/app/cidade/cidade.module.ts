@@ -1,8 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CidadeComponent } from './components';
-import { CidadeService } from './services';
-
+import { CidadeService } from '../cliente';
 
 
 @NgModule({
