@@ -7,7 +7,7 @@ import { Categoria } from '../model/categoria';
 
 export class CategoriaService {
 
-  estado() {
+  categoria() {
     return new Categoria('Alimenticio');
   }
 }

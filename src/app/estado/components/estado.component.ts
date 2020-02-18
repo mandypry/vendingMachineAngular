@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { EstadoService } from 'src/app/cliente';
 
 @Component({
   selector: 'app-estado',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EstadoComponent implements OnInit {
 
-  constructor() { }
+  constructor(private estadoService: EstadoService) { }
 
   ngOnInit() {
+
+    //chamando o estado
+    const estado = this.estadoService.estado();
   }
 
 }
