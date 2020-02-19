@@ -8,6 +8,7 @@ import { CidadeModule } from './cidade';
 import { EstadoModule } from './estado';
 import { CategoriaModule } from './categoria';
 import { SubCategoriaModule} from './subCategoria';
+import { ProdutoModule } from './produto';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SubCategoriaModule} from './subCategoria';
     CidadeModule,
     EstadoModule,
     CategoriaModule,
-    SubCategoriaModule
+    SubCategoriaModule,
+    ProdutoModule
   ],
   providers: [],
   bootstrap: [AppComponent]
