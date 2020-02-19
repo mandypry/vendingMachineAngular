@@ -18,7 +18,7 @@ export class ProdutoService {
   public categoria: Categoria;
   public subCategoria: SubCategoria;
 
-  cliente() {
+  produto() {
     return new Produto('Suco de Frutas Vermelhas', 3.10, this.categoria, this.subCategoria);
   }
 }
