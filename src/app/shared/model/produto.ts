@@ -1,5 +1,3 @@
-import { Estado } from './estado';
-import { Cidade } from './cidade';
 import { Categoria } from './categoria';
 import { SubCategoria } from './subCategoria';
 

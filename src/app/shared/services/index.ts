@@ -4,3 +4,4 @@ export * from './estado.service';
 export * from './categoria.service';
 export * from './subCategoria.service';
 export * from './produto.service';
+export * from './estoque.service';
