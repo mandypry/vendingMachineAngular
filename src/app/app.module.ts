@@ -9,7 +9,9 @@ import { EstadoModule } from './estado';
 import { CategoriaModule } from './categoria';
 import { SubCategoriaModule} from './subCategoria';
 import { ProdutoModule } from './produto';
-import { Estoque } from './shared/model/estoque';
+import { PedidoModule } from './pedido';
+import { EstoqueModule } from './estoque';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { Estoque } from './shared/model/estoque';
     CategoriaModule,
     SubCategoriaModule,
     ProdutoModule,
-    Estoque
+    EstoqueModule,
+    PedidoModule
   ],
   providers: [],
   bootstrap: [AppComponent]
