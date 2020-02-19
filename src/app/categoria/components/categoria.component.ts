@@ -3,8 +3,8 @@ import { CategoriaService } from 'src/app/cliente';
 
 @Component({
   selector: 'app-categoria',
-  templateUrl: './categoriaService.component.html',
-  styleUrls: ['./categoriaService.component.sass']
+  templateUrl: './categoria.component.html',
+  styleUrls: ['./categoria.component.sass']
 })
 export class CategoriaComponent implements OnInit {
 
