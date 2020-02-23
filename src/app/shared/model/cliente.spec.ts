@@ -2,7 +2,7 @@ import { Cliente } from './cliente';
 import { Estado } from './estado';
 import { Cidade } from './cidade';
 
-fdescribe('Cliente', () => {
+describe('Cliente', () => {
   let cliente: Cliente;
   // tslint:disable-next-line: prefer-const
   let estado: Estado;
@@ -20,24 +20,6 @@ fdescribe('Cliente', () => {
       cidade
     );
   });
-
-  // it('should create an instance', () => {
-  //   expect(new Cliente('Amanda', 'Brasil', 31, estado, cidade)).toBeTruthy();
-  // });
-
-  // it('should create newEstado', () => {
-  //   expect(new Estado('Sao Paulo', 'SP')).toBeTruthy();
-  // });
-  
-  // it('should create newCidade', () => {
-  //   expect(new Cidade('Guarulhos', estado)).toBeTruthy();
-  // });
-
-  // it('should CriarNovoCliente', () => {
-  //   const name = 'Amanda';
-  //   cliente.setName(name);
-  //   expect(cliente.setName(name)).toBeUndefined();
-  // });
 
   it('should CriarNomeCliente2', () => {
     cliente.setName('Amanda');
