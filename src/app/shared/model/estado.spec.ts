@@ -1,6 +1,6 @@
 import { Estado } from './estado';
 
-fdescribe('Estado', () => {
+describe('Estado', () => {
 
     let estado: Estado;
 
