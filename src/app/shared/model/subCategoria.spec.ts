@@ -3,7 +3,7 @@ import { SubCategoria } from './subCategoria';
 import { SubCategoriaService } from '../services';
 import { Categoria } from './categoria';
 
-fdescribe('SubCategoriaService', () => {
+describe('SubCategoriaService', () => {
 
   let subCategoria: SubCategoria;
   // tslint:disable-next-line: prefer-const

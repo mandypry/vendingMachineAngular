@@ -20,9 +20,10 @@ export class Estoque {
     return this.produto;
   }
 
-  setProduto() {
-    this.produto = this.produto;
+  setProduto(produto){
+    this.produto = produto;
   }
+
   getCategoria() {
     return this.categoria;
   }
