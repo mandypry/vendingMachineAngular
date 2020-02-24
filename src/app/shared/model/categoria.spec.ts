@@ -1,7 +1,14 @@
 import { Categoria } from './categoria';
 
-describe('Categoria', () => {
-    it('should create an instande', () => {
-        expect(new Categoria('Alimenticio')).toBeTruthy();
+fdescribe('Categoria', () => {
+    let categoria: Categoria;
+
+    beforeEach(() => {
+        categoria = new Categoria('Alimenticio');
+    });
+
+    it('should criarCategoria', () => {
+        categoria.setStateName('Alimenticio');
+        expect(categoria.getTipo()).toEqual('Alimenticio');
     });
 })

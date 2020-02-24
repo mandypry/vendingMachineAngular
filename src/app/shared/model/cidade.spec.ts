@@ -2,7 +2,7 @@ import { Cidade } from './cidade';
 import { Estado } from './estado';
 
 
-fdescribe('Cidade', () => {
+describe('Cidade', () => {
 
     let estado: Estado;
     let cidade: Cidade;
