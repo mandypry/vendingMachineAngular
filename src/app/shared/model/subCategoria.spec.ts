@@ -3,11 +3,23 @@ import { SubCategoria } from './subCategoria';
 import { SubCategoriaService } from '../services';
 import { Categoria } from './categoria';
 
-describe('SubCategoriaService', () => {
+fdescribe('SubCategoriaService', () => {
 
-    let categoria: Categoria;
+  let subCategoria: SubCategoria;
+  // tslint:disable-next-line: prefer-const
+  let categoria: Categoria;
 
-    it('should create an instance', () => {
-    expect(new SubCategoria('Liquido', categoria)).toBeTruthy();
+  beforeEach(() => {
+    subCategoria = new SubCategoria('Liquido', categoria);
+  });
+
+  it('should unidadeMedida', () => {
+    subCategoria.setUnidMedida('Liquido');
+    expect(subCategoria.getUnidMedida()).toEqual('Liquido');
+  });
+
+  it('should categoria', () => {
+    subCategoria.setCategoria(categoria);
+    expect(subCategoria.getCategoria()).toEqual(categoria);
   });
 });
