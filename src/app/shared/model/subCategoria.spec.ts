@@ -10,6 +10,7 @@ describe('SubCategoriaService', () => {
   let categoria: Categoria;
 
   beforeEach(() => {
+    categoria = new Categoria('Alimenticio');
     subCategoria = new SubCategoria('Liquido', categoria);
   });
 

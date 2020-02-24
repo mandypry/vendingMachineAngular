@@ -3,7 +3,7 @@ import { Categoria } from './categoria';
 import { SubCategoria } from './subCategoria';
 import { Produto } from './produto';
 
-fdescribe('Estoque', () => {
+describe('Estoque', () => {
 
   let produto: Produto;
   let categoria: Categoria;

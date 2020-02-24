@@ -4,11 +4,8 @@ import { SubCategoria } from './subCategoria';
 
 describe('Produto', () => {
 
-  // tslint:disable-next-line: prefer-const
   let produto: Produto;
-  // tslint:disable-next-line: prefer-const
   let categoria: Categoria;
-  // tslint:disable-next-line: prefer-const
   let subCategoria: SubCategoria;
 
   beforeEach(() => {
