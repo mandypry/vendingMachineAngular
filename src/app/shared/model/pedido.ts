@@ -16,7 +16,7 @@ export class Pedido {
     return this.cliente;
   }
 
-  setName(cliente) {
+  setCliente(cliente) {
     this.cliente = cliente;
   }
 
