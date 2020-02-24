@@ -1,6 +1,6 @@
 import { Categoria } from './categoria';
 
-fdescribe('Categoria', () => {
+describe('Categoria', () => {
     let categoria: Categoria;
 
     beforeEach(() => {
