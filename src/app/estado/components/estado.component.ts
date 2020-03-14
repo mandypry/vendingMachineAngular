@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { EstadoService } from 'src/app/cliente';
+import { EstadoService } from '../../shared/services';
 
 @Component({
   selector: 'app-estado',

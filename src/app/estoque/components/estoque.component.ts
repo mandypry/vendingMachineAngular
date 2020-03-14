@@ -14,7 +14,7 @@ export class EstoqueComponent implements OnInit {
 
   ngOnInit() {
 
-    //chamando o produto
+    //chamando o estoque
     const estoque = this.estoqueService.estoque();
 
   }

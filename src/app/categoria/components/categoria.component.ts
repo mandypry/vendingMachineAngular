@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CategoriaService } from 'src/app/cliente';
+import { CategoriaService } from '../../shared/services';
 
 @Component({
   selector: 'app-categoria',
@@ -12,6 +12,7 @@ export class CategoriaComponent implements OnInit {
 
   ngOnInit() {
 
+    //chamando a categoria
     const categoria = this.categoriaService.categoria();
   }
 

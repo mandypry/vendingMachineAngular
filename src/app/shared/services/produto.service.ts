@@ -1,9 +1,3 @@
-/**
- * Serviço de clientes com Angular
- * @author Amanda Silva <amanda.adgti@gmail.com>
- * @since 1.0.0
- */
-
 import { Injectable } from '@angular/core';
 import { Produto } from 'src/app/shared/model/produto';
 import { Categoria } from '../model/categoria';

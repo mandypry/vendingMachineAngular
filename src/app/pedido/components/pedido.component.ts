@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { PedidoService } from 'src/app/cliente';
+import { PedidoService } from '../../shared/services';
 
 @Component({
   selector: 'app-pedido',
@@ -8,7 +8,8 @@ import { PedidoService } from 'src/app/cliente';
 })
 export class PedidoComponent implements OnInit {
 
-  constructor(private pedidoService: PedidoService) { }
+  constructor(private pedidoService: PedidoService
+    ) { }
 
   ngOnInit() {
 
