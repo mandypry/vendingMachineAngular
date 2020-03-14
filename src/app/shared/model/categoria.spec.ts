@@ -8,7 +8,7 @@ describe('Categoria', () => {
     });
 
     it('should criarCategoria', () => {
-        categoria.setStateName('Alimenticio');
+        categoria.setTipo('Alimenticio');
         expect(categoria.getTipo()).toEqual('Alimenticio');
     });
 })

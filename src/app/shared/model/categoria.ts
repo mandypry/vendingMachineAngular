@@ -10,7 +10,7 @@ export class Categoria {
         return this.tipo;
     }
 
-    setStateName(tipo) {
+    setTipo(tipo) {
         this.tipo = tipo;
     }
 

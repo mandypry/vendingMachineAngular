@@ -21,7 +21,7 @@ describe('Cliente', () => {
     );
   });
 
-  it('should CriarNomeCliente2', () => {
+  it('should CriarNomeCliente', () => {
     cliente.setName('Amanda');
     expect(cliente.getName()).toEqual('Amanda');
   });
@@ -32,8 +32,8 @@ describe('Cliente', () => {
   });
 
   it('Should CriarIdadeCliente', () => {
-    cliente.setAge(11);
-    expect(cliente.getAge()).toEqual(11);
+    cliente.setIdade(11);
+    expect(cliente.getIdade()).toEqual(11);
   });
 
   it('Should CriarNameEstado', () => {

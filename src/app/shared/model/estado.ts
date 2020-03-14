@@ -1,27 +1,27 @@
 export class Estado {
 
-    private name: string;
-    private initials: string;
+    private nome: string;
+    private sigla: string;
 
-    constructor(name: string, initials: string){
-        this.name = name;
-        this.initials = initials;
+    constructor(nome: string, sigla: string){
+        this.nome = nome;
+        this.sigla = sigla;
     }
 
-    getStateName() {
-        return this.name;
+    getNomeEstado() {
+        return this.nome;
     }
 
-    setStateName(name) {
-        this.name = name;
+    setNomeEstado(nome) {
+        this.nome = nome;
     }
 
-    getStateInitials() {
-        return this.initials;
+    getSiglaEstado() {
+        return this.sigla;
     }
 
-    setStateInitials(initials) {
-        this.initials = initials;
+    setSiglaEstado(sigla) {
+        this.sigla = sigla;
     }
 
 }

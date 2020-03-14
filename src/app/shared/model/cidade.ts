@@ -2,20 +2,20 @@ import { Estado } from './estado';
 
 export class Cidade {
 
-    private name: string;
+    private nome: string;
     private estado: Estado;
 
-    constructor(name: string, estado: Estado) {
-        this.name = name;
+    constructor(nome: string, estado: Estado) {
+        this.nome = nome;
         this.estado = estado;
     }
 
-    getCityName() {
-        return this.name;
+    getNomeCidade() {
+        return this.nome;
     }
 
-    setCityName(name) {
-        this.name = name;
+    setNomeCidade(nome) {
+        this.nome = nome;
     }
 
     getEstado() {

@@ -41,5 +41,5 @@ describe('Estoque', () => {
     estoque.setQuantidade(10);
     expect(estoque.getQuantidade()).toEqual(10);
   });
-  
+
 });

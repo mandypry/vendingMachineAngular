@@ -3,13 +3,13 @@ import { SubCategoria } from './subCategoria';
 
 export class Produto {
     private name: string;
-    private price: number;
+    private preco: number;
     private categoria: Categoria;
     private subCategoria: SubCategoria;
 
-  constructor(name: string, price: number, categoria: Categoria, subCategoria: SubCategoria ) {
+  constructor(name: string, preco: number, categoria: Categoria, subCategoria: SubCategoria ) {
       this.name = name;
-      this.price = price;
+      this.preco = preco;
       this.categoria = categoria;
       this.subCategoria = subCategoria;
   }
@@ -22,12 +22,12 @@ export class Produto {
     this.name = name;
   }
 
-  getPrice() {
-    return this.price;
+  getPreco() {
+    return this.preco;
   }
 
-  setPrice(price) {
-    this.price = price;
+  setPreco(preco) {
+    this.preco = preco;
   }
 
   getCategoria() {

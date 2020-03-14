@@ -9,12 +9,12 @@ describe('Estado', () => {
     });
 
     it('should criarNameEstado', () => {
-        estado.setStateName('São Paulo');
-        expect(estado.getStateName()).toEqual('São Paulo');
+        estado.setNomeEstado('São Paulo');
+        expect(estado.getNomeEstado()).toEqual('São Paulo');
     });
 
     it('should criarInitialsEstado', () => {
-        estado.setStateInitials('SP');
-        expect(estado.getStateInitials()).toEqual('SP');
+        estado.setSiglaEstado('SP');
+        expect(estado.getSiglaEstado()).toEqual('SP');
     });
 })

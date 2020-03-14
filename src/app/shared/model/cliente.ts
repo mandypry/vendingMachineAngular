@@ -4,14 +4,14 @@ import { Cidade } from './cidade';
 export class Cliente {
     private name: string;
     private pais: string;
-    private age: number;
+    private idade: number;
     private estado: Estado;
     private cidade: Cidade;
 
-  constructor(name: string, pais: string, age: number, estado: Estado, cidade: Cidade ) {
+  constructor(name: string, pais: string, idade: number, estado: Estado, cidade: Cidade ) {
       this.name = name;
       this.pais = pais;
-      this.age = age;
+      this.idade = idade;
       this.estado = estado;
       this.cidade = cidade;
   }
@@ -32,12 +32,12 @@ export class Cliente {
     this.pais = pais;
   }
 
-  getAge() {
-    return this.age;
+  getIdade() {
+    return this.idade;
   }
 
-  setAge(age) {
-    this.age = age;
+  setIdade(idade) {
+    this.idade = idade;
   }
 
   getEstado() {

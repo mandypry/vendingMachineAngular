@@ -13,8 +13,8 @@ describe('Cidade', () => {
     });
 
     it('should nameCidade', () => {
-        cidade.setCityName('Guarulhos');
-        expect(cidade.getCityName()).toEqual('Guarulhos');
+        cidade.setNomeCidade('Guarulhos');
+        expect(cidade.getNomeCidade()).toEqual('Guarulhos');
     });
 
     it('should estadoCidade', () => {

@@ -12,7 +12,7 @@ describe('Produto', () => {
     categoria = new Categoria('Alimenticio');
     subCategoria = new SubCategoria('Liquido', categoria);
     produto = new Produto(
-      'Suco de Frutas Vermelhas', 
+      'Suco de Frutas Vermelhas',
       10.40,
       categoria,
       subCategoria
@@ -24,9 +24,9 @@ describe('Produto', () => {
     expect(produto.getName()).toEqual('Suco de Frutas Vermelhas');
   });
 
-  it('should priceProduto', () => {
-    produto.setPrice(10.40);
-    expect(produto.getPrice()).toEqual(10.40);
+  it('should preçoProduto', () => {
+    produto.setPreco(10.40);
+    expect(produto.getPreco()).toEqual(10.40);
   });
 
   it('should categoriaProduto', () => {
